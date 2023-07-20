@@ -1,0 +1,86 @@
+.dark-toggle-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.dark-toggle-slot {
+    position: relative;
+    overflow: hidden;
+    height: 2.5em;
+    width: 4.5em;
+    border: 5px solid #930808;
+    border-radius: 10em;
+    background-color: #388bff;
+    transition: background-color 250ms, border-color 250ms;
+}
+
+.dark-toggle-checkbox:checked ~ .dark-toggle-slot {
+    border: 5px solid #ffffff;
+    background-color: #210056;
+}
+
+.dark-toggle-button {
+    transform: translate(2.25em, 0.35em);
+    position: absolute;
+    height: 1.25em;
+    width: 1.25em;
+    border-radius: 50%;
+    background-color: #ffeccf;
+    box-shadow: inset 0px 0px 0px 0.75em #ffbb52;
+    transition: background-color 250ms, border-color 250ms,
+        transform 500ms cubic-bezier(0.26, 2, 0.46, 0.71);
+}
+
+.dark-toggle-checkbox:checked ~ .dark-toggle-slot .dark-toggle-button {
+    background-color: #485367;
+    box-shadow: inset 0px 0px 0px 0.75em #b4bbff;
+    transform: translate(0.5em, 0.35em);
+}
+
+.sun-icon {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    color: #ffbb52;
+}
+
+.sun-icon-wrapper {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    opacity: 1;
+    transform: translate(0.5em, 0.5em) rotate(15deg);
+    transform-origin: 50% 50%;
+    transition: opacity 150ms, transform 500ms cubic-bezier(0.26, 2, 0.46, 0.71);
+}
+
+.dark-toggle-checkbox:checked ~ .dark-toggle-slot .sun-icon-wrapper {
+    opacity: 0;
+    transform: translate(3em, 2em) rotate(0deg);
+}
+
+.moon-icon {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    color: #ffeb68;
+}
+
+.moon-icon-wrapper {
+    position: absolute;
+    height: 1em;
+    width: 1em;
+    opacity: 0;
+    transform: translate(11em, 2em) rotate(0deg);
+    transform-origin: 50% 50%;
+    transition: opacity 150ms,
+        transform 500ms cubic-bezier(0.23, 1.04, 0.9, 1.05);
+}
+
+.dark-toggle-checkbox:checked ~ .dark-toggle-slot .moon-icon-wrapper {
+    opacity: 1;
+    transform: translate(2.5em, 0.5em) rotate(-15deg);
+}
