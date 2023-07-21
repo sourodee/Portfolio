@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import loader from "../assets/loader.gif";
+import loader from "../Assets/loader.gif";
 export default function Loader() {
     return (
         <motion.main
