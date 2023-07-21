@@ -7,11 +7,11 @@ import Footer from "./Components/Footer";
 import { ThemeContext } from "./Contexts/themeContext";
 // import lazyLoad from "./Util/lazyLoad";
 // const Work = lazyLoad(import("./Pages/Work"));
-const Work = lazy(() => import("./Pages/Work"));
-const Home = lazy(() => import("./Pages/Home"));
-const Tools = lazy(() => import("./Pages/Tools"));
-const Experience = lazy(() => import("./Pages/Experience"));
-const Contact = lazy(() => import("./Pages/Contact"));
+const Work = lazy(() => import("./Pages/Work.jsx"));
+const Home = lazy(() => import("./Pages/Home.jsx"));
+const Tools = lazy(() => import("./Pages/Tools.jsx"));
+const Experience = lazy(() => import("./Pages/Experience.jsx"));
+const Contact = lazy(() => import("./Pages/Contact.jsx"));
 
 function App() {
     const location = useLocation();
