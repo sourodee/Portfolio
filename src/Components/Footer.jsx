@@ -1,7 +1,7 @@
 import data from "../Assets/PortfolioData";
 import SocialLink from "./SocialLink";
-import paperTextureLight from "../assets/paper-texture-light.png";
-import paperTextureDark from "../assets/paper-texture-dark.png";
+import paperTextureLight from "../Assets/paper-texture-light.png";
+import paperTextureDark from "../Assets/paper-texture-dark.png";
 import { useContext } from "react";
 import { ThemeContext } from "../Contexts/themeContext";
 
