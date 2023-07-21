@@ -6,11 +6,11 @@ import Loader from "./Components/Loader";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import { ThemeContext } from "./Contexts/themeContext";
-const Work = lazyLoad("../Pages/Work");
-const Home = lazyLoad("../Pages/Home");
-const Tools = lazyLoad("../Pages/Tools");
-const Experience = lazyLoad("../Pages/Experience");
-const Contact = lazyLoad("../Pages/Contact");
+const Work = lazyLoad(import("./Pages/Work"));
+const Home = lazyLoad(import("./Pages/Home"));
+const Tools = lazyLoad(import("./Pages/Tools"));
+const Experience = lazyLoad(import("./Pages/Experience"));
+const Contact = lazyLoad(import("./Pages/Contact"));
 
 function App() {
     const location = useLocation();
