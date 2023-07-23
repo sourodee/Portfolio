@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import { ThemeContext } from "./Contexts/themeContext";
 // import lazyLoad from "./Util/lazyLoad";
-// const Work = lazyLoad(import("./Pages/Work"));
+// const Work = lazyLoad(()=>import("./Pages/Work"));
 const Work = lazy(() => import("./Pages/Work"));
 const Home = lazy(() => import("./Pages/Home"));
 const Tools = lazy(() => import("./Pages/Tools"));
