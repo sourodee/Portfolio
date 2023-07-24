@@ -11,21 +11,20 @@ export default function Experience() {
     const { width } = useContext(ScreenContext);
 
     const { scrollYProgress } = useScroll();
-    const scrollHeight = width > 1024 ? -2500 : width > 768 ? -4000 : -8500;
+    const scrollHeight = width > 1024 ? -2000 : width > 768 ? -3500 : -7000;
     const y1 = useTransform(scrollYProgress, [0, 0.75], [0, scrollHeight]);
     const y2 = useTransform(scrollYProgress, [0, 0.75], [scrollHeight, 0]);
     const yParent = useTransform(scrollYProgress, [0, 0.75], [0, 100]);
-    console.log(y1.get());
 
-    let exp_col = [experiences.slice(0, 18)];
+    let exp_col = [experiences.slice(0, 15)];
     if (width > 1024) {
         exp_col = [
-            experiences.slice(0, 6),
-            experiences.slice(6, 12),
-            experiences.slice(12, 18),
+            experiences.slice(0, 5),
+            experiences.slice(5, 10),
+            experiences.slice(10, 15),
         ];
     } else if (width > 768) {
-        exp_col = [experiences.slice(0, 9), experiences.slice(9, 18)];
+        exp_col = [experiences.slice(0, 8), experiences.slice(8, 16)];
     }
     console.log(exp_col);
 

@@ -74,12 +74,6 @@ const data = {
         {
             title: "Creative Poster Design",
             description:
-                "A compelling poster design captures the audience's imagination and ignites curiosity, making a memorable impact. It combines artistic elements, design principles, and persuasive communication to effectively convey a message that entices viewers to engage and respond. I possess experience collaborating with well-known brands such as Burger King and Arya Computech.",
-            imgPublicId: "Exp/Food_Banner_Design_zzzlxg",
-        },
-        {
-            title: "Creative Poster Design",
-            description:
                 "A captivating poster design stimulates the imagination and arouses curiosity in a knowledgeable audience, creating a memorable impact. It combines artistic elements, design principles, and effective communication to convey a compelling message while motivating viewers to actively engage and respond. Previously, I have collaborated with renowned brands such as Burger King and Arya Computech.",
             imgPublicId: "Exp/Computer_Center_Banner_Design_zfwhzh",
         },
@@ -94,12 +88,6 @@ const data = {
             description:
                 "A thoughtfully crafted pull-up banner from a food company can serve as a compelling marketing instrument, attracting customers with its irresistible range of delicious offerings. Through the skilful presentation of the company's advantages and captivating potential customers, the pull-up banner has the potential to boost sales and establish a strong presence for the brand within the fiercely competitive food industry. I will collaborate with Mother's Kitchen and Jhale Jhole Ombole.",
             imgPublicId: "Exp/Food_Pull_Up_Banner_ulplud",
-        },
-        {
-            title: "Pull Up Banner",
-            description:
-                "A well-designed food company pull-up banner serves as a powerful marketing tool, enticing customers to indulge in the delectable offerings. By effectively showcasing the company's strengths and enticing potential customers, the pull-up banner can drive sales and elevate the brand's presence in the competitive food industry. I Have To Work With Mother's Kitchen And Jhale Jhole Ombole.",
-            imgPublicId: "Exp/Pull_Up_Banner_Of_A_Burger_Company_ytjgyk",
         },
         {
             title: "Visiting Card Design",
@@ -150,10 +138,10 @@ const data = {
             imgPublicId: "Exp/t5ix3mfxyw0juvjifrhx",
         },
         {
-            title: "Poster Design",
+            title: "Pull Up Banner",
             description:
-                "In the artful process of crafting a pizza poster cover, I combined mouthwatering visuals, a dash of creativity, and a sprinkle of typography magic. From conceptualizing the vision to savoring the finished product, this culinary journey celebrated the beloved pizza and its power to bring joy to all who feast their eyes on it. The result? A visually delightful masterpiece that captures the essence of this timeless comfort food.",
-            imgPublicId: "Exp/food-web-banner-16_zp073a",
+                "A well-designed food company pull-up banner serves as a powerful marketing tool, enticing customers to indulge in the delectable offerings. By effectively showcasing the company's strengths and enticing potential customers, the pull-up banner can drive sales and elevate the brand's presence in the competitive food industry. I Have To Work With Mother's Kitchen And Jhale Jhole Ombole.",
+            imgPublicId: "Exp/Pull_Up_Banner_Of_A_Burger_Company_ytjgyk",
         },
     ],
     works: [
