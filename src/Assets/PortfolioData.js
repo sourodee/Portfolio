@@ -275,14 +275,6 @@ const data = {
                             alt: "Food Pull Up Banner",
                         },
                         {
-                            imgPublicId: "Work/food-facebook-cover-18_t8wxh4",
-                            alt: "Food Facebook Cover",
-                        },
-                        {
-                            imgPublicId: "Exp/food-web-banner-16_zp073a",
-                            alt: "Food Web Banner",
-                        },
-                        {
                             imgPublicId: "Exp/Kasturi_Mockup_1_p6vwlo",
                             alt: "Kasturi Mockup",
                         },
